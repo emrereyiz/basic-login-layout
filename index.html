@@ -1,0 +1,100 @@
+<html>
+    <head>
+        <title>Lottostarlet - Emre Köklü</title>
+        <!-- Special Character -->
+        <meta charset="utf-8" />
+        <!-- Mobile, iPad and other device -->
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5, user-scalable=no" />
+        <!-- IE EDGE Compatible Mode -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <!-- Import CSS File -->
+        <link rel="stylesheet" href="css/lottostarlet.css">
+        <!-- Import Awesome CSS File -->
+        <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">        
+    </head>
+    <body>
+        <!-- border layout -->
+        <div class="band"></div>
+        <!-- container start -->
+        <div class="container" role="main">
+            <!-- tab-button start -->
+            <div id="tab-button" role="tablist">
+                    <!-- tab item -->
+                    <a href="#" role="presentation">
+                        <span class="figure create-user-figure">
+                            <i class="fa fa-user-o" aria-hidden="true"></i>
+                        </span>
+                        Create Account
+                    </a>
+                    <!-- tab item -->
+                    <a href="#" role="presentation" class="active">
+                        <span class="figure login-figure">
+                            <i class="fa fa-user-o" aria-hidden="true"></i>
+                        </span>
+                        Login
+                    </a>
+                    <!-- tab item -->
+                    <a href="#" role="presentation">
+                        <span class="figure shopping-figure">
+                            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                        </span>
+                        Shopping Cart
+                    </a>
+            </div>
+            <!-- tab content item -->
+            <div class="tab-content" role="tabpanel">
+                Create Account
+            </div>
+            <!-- tab content item -->
+            <div id="login-content" class="tab-content active" role="tabpanel">
+                <!-- top-bar start -->
+                <div class="top-bar">
+                    Secure Login
+                </div>
+                <!-- first-step start -->
+                <div class="first-step">
+                    <div class="error">
+                        <i class="fa fa-exclamation-triangle" aria-hidden="true"></i>
+                        Please correct the marked fields.
+                    </div>
+                    <!-- form-area start -->
+                    <div id="form-area">
+                        <!-- form-group item -->
+                        <div class="form-group">
+                            <input type="text" class="email" role="textbox" aria-required="true" />
+                            <label>E-mail address</label>
+                        </div>
+                        <!-- form-group item -->
+                        <div class="form-group">
+                            <input type="password" class="password" role="textbox" aria-required="true" />
+                            <label>Password</label>
+                        </div>
+                        <p>Forgot your password? <a href="#">Request a new one.</a></p>
+                        <!-- login button -->
+                        <a href="#" class="login" role="button">Login</a>
+                        <p>Not registered yet? <a href="#">Register now for free!</a></p>
+                    </div>
+                </div>
+                <!-- timeout-step start -->
+                <div class="timeout-step">
+                    <!-- text start -->
+                    <span class="text">You will be logged in...</span>
+                    <!-- animate start -->
+                    <div class="animate">
+                        <span class="small-circle"></span>
+                        <span class="big-circle"></span>
+                    </div>
+
+                </div>
+
+            </div>
+            <!-- tab content item -->
+            <div class="tab-content" role="tabpanel">
+                Shopping Cart
+            </div>
+        </div>
+        <!-- Import JS File -->
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+        <script type="text/javascript" src="js/lottostarlet.js"></script>
+    </body>
+</html>
